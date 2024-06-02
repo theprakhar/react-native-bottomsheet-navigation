@@ -1,5 +1,5 @@
 import React from "react";
-import { generateUUID } from "../../../src/constants/miscellaneous";
+import { generateUUID } from "./misc";
 import { getDisplayName } from "./misc"; 
 import { BOTTOMSHEET_NAVIGATION_EVENT, dispatchSheetEvent } from "./events";
 

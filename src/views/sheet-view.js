@@ -1,6 +1,7 @@
 import React from "react";
 import { Animated, Easing } from "react-native";
-import { entireScreenHeight } from "../../utils/dimension";
+const entireScreenHeight = Dimensions.get('window').height
+
 
 class SheetView extends React.PureComponent {
   yTransform = new Animated.Value(entireScreenHeight);
