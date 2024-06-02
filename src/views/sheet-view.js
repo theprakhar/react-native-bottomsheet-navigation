@@ -1,5 +1,5 @@
 import React from "react";
-import { Animated, Easing } from "react-native";
+import { Animated, Easing,Dimensions } from "react-native";
 const entireScreenHeight = Dimensions.get('window').height
 
 
