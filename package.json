@@ -1,6 +1,6 @@
 {
   "name": "react-native-bottomsheet-navigation",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Simplest bottomsheet navigation package for react-native.",
   "main": "index.js",
   "keywords": [
@@ -23,6 +23,7 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-gesture-handler": "2.18.1"
   }
 }

@@ -50,7 +50,8 @@ class SheetContainer extends React.PureComponent {
           onOpen={this.handleOpen}
           onClose={this.handleClose}
           closing={closing}
-          opening={opening}>
+          opening={opening}
+        >
           {this.props.children}
         </SheetView>
       </View>
@@ -66,7 +67,7 @@ const styles = StyleSheet.create({
   },
   bgOverlay: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: "#00000080",
+    backgroundColor: "#000000BF",
   },
   bgOverlayOnPress: { width: "100%", height: "100%" },
 });
